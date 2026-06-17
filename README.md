@@ -58,8 +58,7 @@ If the system defaults to llvmpipe (software rendering):
  ```
 
 glxinfo | grep "OpenGL renderer"
-
-
+ ```
 
 Правильный результат: OpenGL renderer string: AMD RV770 ...
 Решение проблем
