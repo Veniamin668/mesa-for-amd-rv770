@@ -26,6 +26,7 @@ Verify that the system is using the new driver:
  ```
 glxinfo | grep "OpenGL renderer"
    ```
+
 You should see: OpenGL renderer string: AMD RV770 (DRM 2.51.0 / ...)
 Troubleshooting
 
