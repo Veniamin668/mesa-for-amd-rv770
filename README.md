@@ -17,7 +17,6 @@ A custom-compiled Mesa driver optimized for **AMD Radeon HD 4850 (RV770)** on mo
    sudo dpkg -i mesa-r600-custom_26.2.0-1_amd64.deb
 
     If you encounter dependency errors, fix them with:
-    Bash
 
     sudo apt-get install -f
  ```
