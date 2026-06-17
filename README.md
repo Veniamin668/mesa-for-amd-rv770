@@ -31,23 +31,23 @@ Troubleshooting
 
 If the system defaults to llvmpipe (software rendering):
  
-    №Add the driver path to the library configuration:
+    #Add the driver path to the library configuration:
 
     echo "/opt/mesa-r600/lib/x86_64-linux-gnu/" | sudo tee /etc/ld.so.conf.d/mesa-r600.conf
 
-    №Update the cache
+    #Update the cache
     sudo ldconfig
 
 🇷🇺 Инструкция на русском языке (Russian)
 Установка
 
-    №Скачайте .deb пакет со страницы Releases.
+    #Скачайте .deb пакет со страницы Releases.
 
-    №Установите его командой:
+    #Установите его командой:
 
     sudo dpkg -i mesa-r600-custom_26.2.0-1_amd64.deb
 
-    №Если возникнут ошибки зависимостей, выполните:
+    #Если возникнут ошибки зависимостей, выполните:
 
     sudo apt-get install -f
 
@@ -63,11 +63,11 @@ glxinfo | grep "OpenGL renderer"
 
 Если система всё еще использует llvmpipe (программный рендер):
 
-    Добавьте путь к драйверу в конфиг системы:
+    #Добавьте путь к драйверу в конфиг системы:
 
     echo "/opt/mesa-r600/lib/x86_64-linux-gnu/" | sudo tee /etc/ld.so.conf.d/mesa-r600.conf
 
-    Обновите кэш библиотек:
+    #Обновите кэш библиотек:
 
     sudo ldconfig
 
